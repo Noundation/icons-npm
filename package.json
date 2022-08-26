@@ -2,7 +2,7 @@
   "name": "@noundation/icons",
   "author": "@TheNoundation",
   "description": "SVG-based ReactJS icon componenents for @NounsDAO as part of the Noundation Design System, Chapter 1: Icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "CC0-1.0",
   "repository": {
     "type": "git",
