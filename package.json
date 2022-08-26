@@ -4,6 +4,10 @@
   "description": "SVG-based ReactJS icon componenents for @NounsDAO as part of the Noundation Design System, Chapter 1: Icons",
   "version": "0.1.0",
   "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noundation/icons-npm.git"
+  },
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
