@@ -32,7 +32,6 @@
     "rollup": "^2.78.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.18.9",
-    "@noundation/icons": "file:noundation-icons-0.1.0.tgz"
+    "@babel/runtime": "^7.18.9"
   }
 }
