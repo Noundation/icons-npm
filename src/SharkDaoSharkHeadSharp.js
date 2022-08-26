@@ -1,0 +1,20 @@
+import * as React from "react";
+
+const SvgSharkDaoSharkHeadSharp = ({ title, titleId, ...props }) => (
+  <svg
+    width="1em"
+    height="1em"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <path
+      fill="currentColor"
+      d="M12 6h1v1h-1zM11 6h1v1h-1zM10 6h1v1h-1zM12 5h1v1h-1zM11 4h1v1h-1zM10 4h1v1h-1zM9 4h1v1H9zM10 5h1v1h-1zM11 5h1v1h-1zM13 6h1v1h-1zM2 7h1v1H2zM2 8h1v1H2zM3 8h1v1H3zM8 8h1v1H8zM9 8h1v1H9zM10 8h1v1h-1zM11 8h1v1h-1zM12 8h1v1h-1zM13 8h1v1h-1zM14 8h1v1h-1zM15 8h1v1h-1zM16 8h1v1h-1zM17 8h1v1h-1zM18 8h1v1h-1zM2 9h1v1H2zM3 9h1v1H3zM4 9h1v1H4zM6 9h1v1H6zM7 9h1v1H7zM8 9h1v1H8zM9 9h1v1H9zM10 9h1v1h-1zM11 9h1v1h-1zM12 9h1v1h-1zM13 9h1v1h-1zM14 9h1v1h-1zM15 9h1v1h-1zM16 9h1v1h-1zM17 9h1v1h-1zM18 9h1v1h-1zM19 9h1v1h-1zM2 10h1v1H2zM3 10h1v1H3zM4 10h1v1H4zM5 10h1v1H5zM6 10h1v1H6zM13 10h1v1h-1zM20 10h1v1h-1zM20 11h1v1h-1zM21 11h1v1h-1zM20 12h1v1h-1zM21 12h1v1h-1zM20 13h1v1h-1zM20 14h1v1h-1zM19 16h1v1h-1zM18 16h1v1h-1zM17 16h1v1h-1zM16 16h1v1h-1zM15 16h1v1h-1zM14 16h1v1h-1zM13 16h1v1h-1zM12 16h1v1h-1zM11 16h1v1h-1zM10 16h1v1h-1zM9 16h1v1H9zM8 16h1v1H8zM7 16h1v1H7zM6 16h1v1H6zM6 15h1v1H6zM6 14h1v1H6zM6 13h1v1H6zM5 13h1v1H5zM5 14h1v1H5zM5 15h1v1H5zM4 15h1v1H4zM4 16h1v1H4zM3 17h1v1H3zM2 18h1v1H2zM2 17h1v1H2zM2 16h1v1H2zM3 16h1v1H3zM2 15h1v1H2zM3 15h1v1H3zM3 14h1v1H3zM3 13h1v1H3zM3 12h1v1H3zM3 11h1v1H3zM2 11h1v1H2zM4 11h1v1H4zM5 11h1v1H5zM6 11h1v1H6zM8 11h1v1H8zM9 11h1v1H9zM8 12h1v1H8zM9 12h1v1H9zM8 13h1v1H8zM9 13h1v1H9zM8 14h1v1H8zM9 14h1v1H9zM13 15h1v1h-1zM13 14h1v1h-1zM13 13h1v1h-1zM13 11h1v1h-1zM15 11h1v1h-1zM16 11h1v1h-1zM15 12h1v1h-1zM16 12h1v1h-1zM15 13h1v1h-1zM16 13h1v1h-1zM15 14h1v1h-1zM16 14h1v1h-1zM18 17h1v1h-1zM18 18h1v1h-1zM17 17h1v1h-1zM15 17h1v1h-1zM13 17h1v1h-1zM12 17h1v1h-1zM10 17h1v1h-1zM8 17h1v1H8zM7 17h1v1H7zM6 17h1v1H6zM6 18h1v1H6zM7 18h1v1H7zM9 18h1v1H9zM11 18h1v1h-1zM12 18h1v1h-1zM14 18h1v1h-1zM16 18h1v1h-1zM17 19h1v1h-1zM16 19h1v1h-1zM15 19h1v1h-1zM14 19h1v1h-1zM13 19h1v1h-1zM12 19h1v1h-1zM11 19h1v1h-1zM10 19h1v1h-1zM9 19h1v1H9zM8 19h1v1H8zM7 19h1v1H7zM6 19h1v1H6zM10 7h1v1h-1zM11 7h1v1h-1zM13 7h1v1h-1zM14 7h1v1h-1zM15 7h1v1h-1zM16 7h1v1h-1zM17 7h1v1h-1zM12 7h1v1h-1z"
+    />
+  </svg>
+);
+
+export default SvgSharkDaoSharkHeadSharp;

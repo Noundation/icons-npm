@@ -1,0 +1,20 @@
+import * as React from "react";
+
+const SvgNouncatsHeadSharp = ({ title, titleId, ...props }) => (
+  <svg
+    width="1em"
+    height="1em"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-labelledby={titleId}
+    {...props}
+  >
+    {title ? <title id={titleId}>{title}</title> : null}
+    <path
+      fill="currentColor"
+      d="M5 19h1v1H5zM6 19h1v1H6zM6 20h1v1H6zM7 19h1v1H7zM7 20h1v1H7zM8 19h1v1H8zM8 20h1v1H8zM9 19h1v1H9zM9 20h1v1H9zM10 19h1v1h-1zM10 20h1v1h-1zM13 19h1v1h-1zM13 20h1v1h-1zM14 19h1v1h-1zM14 20h1v1h-1zM15 19h1v1h-1zM15 20h1v1h-1zM16 19h1v1h-1zM16 20h1v1h-1zM17 19h1v1h-1zM17 20h1v1h-1zM18 19h1v1h-1zM19 18h1v1h-1zM4 18h1v1H4zM4 17h1v1H4zM19 17h1v1h-1zM3 16h1v1H3zM17 16h1v1h-1zM17 15h1v1h-1zM6 5h1v1H6zM5 5h1v1H5zM5 6h1v1H5zM5 7h1v1H5zM5 8h1v1H5zM4 9h1v1H4zM4 10h1v1H4zM4 11h1v1H4zM4 12h1v1H4zM4 13h1v1H4zM4 15h1v1H4zM5 17h1v1H5zM5 18h1v1H5zM6 18h1v1H6zM17 18h1v1h-1zM18 18h1v1h-1zM18 17h1v1h-1zM19 15h1v1h-1zM19 13h1v1h-1zM19 12h1v1h-1zM19 10h1v1h-1zM19 11h1v1h-1zM19 9h1v1h-1zM18 8h1v1h-1zM18 7h1v1h-1zM18 6h1v1h-1zM18 5h1v1h-1zM17 5h1v1h-1zM17 6h1v1h-1zM17 7h1v1h-1zM16 7h1v1h-1zM15 8h1v1h-1zM14 9h1v1h-1zM15 9h1v1h-1zM13 9h1v1h-1zM10 9h1v1h-1zM11 9h1v1h-1zM12 9h1v1h-1zM11 19h1v1h-1zM11 20h1v1h-1zM12 19h1v1h-1zM12 20h1v1h-1zM9 9h1v1H9zM8 8h1v1H8zM8 9h1v1H8zM7 7h1v1H7zM6 6h1v1H6zM6 7h1v1H6zM7 8h1v1H7zM16 8h1v1h-1zM17 13h1v1h-1zM17 12h1v1h-1zM18 12h1v1h-1zM16 16h1v1h-1zM16 15h1v1h-1zM4 16h1v1H4zM18 16h1v1h-1zM18 15h1v1h-1zM5 16h1v1H5zM5 15h1v1H5zM19 16h1v1h-1zM6 16h1v1H6zM6 15h1v1H6zM7 16h1v1H7zM7 15h1v1H7zM20 16h1v1h-1zM20 15h1v1h-1zM21 12h1v1h-1zM20 13h1v1h-1zM20 12h1v1h-1zM20 10h1v1h-1zM20 11h1v1h-1zM20 9h1v1h-1zM20 8h1v1h-1zM19 8h1v1h-1zM4 8h1v1H4zM4 7h1v1H4zM4 6h1v1H4zM4 5h1v1H4zM5 4h1v1H5zM6 4h1v1H6zM7 5h1v1H7zM7 6h1v1H7zM8 6h1v1H8zM9 7h1v1H9zM14 7h1v1h-1zM15 6h1v1h-1zM8 7h1v1H8zM9 8h1v1H9zM10 8h1v1h-1zM11 8h1v1h-1zM12 8h1v1h-1zM13 8h1v1h-1zM14 8h1v1h-1zM15 7h1v1h-1zM19 7h1v1h-1zM19 6h1v1h-1zM19 5h1v1h-1zM18 4h1v1h-1zM17 4h1v1h-1zM16 5h1v1h-1zM16 4h1v1h-1zM7 4h1v1H7zM16 6h1v1h-1zM3 8h1v1H3zM3 9h1v1H3zM3 10h1v1H3zM3 11h1v1H3zM3 12h1v1H3zM3 13h1v1H3zM2 12h1v1H2zM3 14h1v1H3zM2 13h1v1H2zM18 13h1v1h-1zM4 14h1v1H4zM19 14h1v1h-1zM5 13h1v1H5zM5 12h1v1H5zM20 14h1v1h-1zM6 13h1v1H6zM6 12h1v1H6zM21 13h1v1h-1zM3 15h1v1H3z"
+    />
+  </svg>
+);
+
+export default SvgNouncatsHeadSharp;
